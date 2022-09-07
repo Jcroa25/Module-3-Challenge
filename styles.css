@@ -30,9 +30,13 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+h2 {
+    text-align: center;
+}
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
+  border: 2px solid black;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
@@ -86,6 +90,9 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+.btn:hover {
+    background-color: orange;
 }
 
 button[disabled] {
